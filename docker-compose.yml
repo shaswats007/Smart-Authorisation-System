@@ -1,0 +1,30 @@
+version: "2"
+services:
+  app:
+    container_name: app
+    restart: always
+    build: .
+    ports:
+      - "4000:4000"
+    links:
+      - mongo
+      - python-barcode
+      - backend
+
+  python-barcode:
+    container_name: python-barcode
+    image: python-barcode
+
+  backend:
+    container_name: backend
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "3000:3000"
