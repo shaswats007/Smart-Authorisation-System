@@ -33,13 +33,11 @@ The core of the application is face recognition algorithm which first detects a 
 - Email notifications of entering the place
 - Blocking the door via email link in case of cheating
 
-![3](https://user-images.githubusercontent.com/18744749/31586456-fa48f930-b1d9-11e7-9839-93302146da40.jpg)
-
 ## System installation
 
 - Software requirements
   - Download the code from GitHub repository
-$ git clone https://github.com/dmitrykhramov/Smart-Bell.git 
+$ git https://github.com/shaswats007/Smart-Authorisation-System.git
 
   - Install MongoDB
 Available for download from https://www.mongodb.com/. 
