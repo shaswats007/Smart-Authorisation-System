@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "array-slice": "^1.0.0",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "map-limit": "0.0.1",
