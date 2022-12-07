@@ -15,7 +15,7 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "cors": "^2.8.3",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "images-upload-middleware": "^1.1.1",
     "jwt-simple": "^0.5.1",
     "mongodb": "^2.2.29",
