@@ -31,7 +31,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
-    "webpack": "^3.6.0",
+    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^1.12.0"
   }
 }
